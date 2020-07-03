@@ -11,112 +11,116 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark ">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
         <a class="navbar-brand" href="#"></a>
         <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-        <div class="navbar-collapse collapse bs-js-navbar-scrollspy" id="navbarCollapse">
-            <ul class="nav navbar-nav mx-auto nav-pills" id="#navbar-example2">
+        <div class="navbar-collapse collapse" id="navbarCollapse">
+            <ul class="nav navbar-nav nav-pills mx-auto" id="pills-tab" role="tablist">
                 <li class="nav-item">
-                    <a class="nav-link" data-toggle="pill" href="#About">About</a>
+                    <a class="nav-link active" id="pills-About-tab" data-toggle="pill" href="#pills-About" role="tab" aria-controls="pills-About" aria-selected="true">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" data-toggle="pill" href="#Skills">Skills</a>
+                    <a class="nav-link" id="pills-Skills-tab" data-toggle="pill" href="#pills-Skills" role="tab" aria-controls="pills-Skills" aria-selected="false">Skills</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" data-toggle="pill" href="#Experience">Experience</a>
+                    <a class="nav-link" id="pills-Experience-tab" data-toggle="pill" href="#pills-Experience" role="tab" aria-controls="pills-Experience" aria-selected="false">Experience</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" data-toggle="pill" href="#Awards">Awards</a>
+                    <a class="nav-link" id="pills-Awards-tab" data-toggle="pill" href="#pills-Awards" role="tab" aria-controls="pills-Awards" aria-selected="false">Awards</a>
                 </li>
             </ul>
         </div>
     </nav>
-    <div class="container">
-        <div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
-            <h4 id="About">About</h4>
-            <p>...
-            </p>
+
+
+    <div class="tab-content container" id="pills-tabContent">
+        <div class="tab-pane fade show active" id="pills-About" role="tabpanel" aria-labelledby="pills-About-tab">
+            <h4>About</h4>
             <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <h4 id="Skills">Skills</h4>
+            <div class="row">
+                <div class="rectangle">
+                    <div class="img-align">
+                        <img src="asset/face.jpg" width="50%">
+                    </div>
+                    <br>
+                    <div class="text-align">
+                        <h6>林晉丞</h6>
+                        <h6>台灣科技大學</h6>
+                        <h6>資訊管理系</h6>
+                    </div>
+
+                </div>
+                <div class="rectangle-content">
+                    <div class="content-align">
+                        <p>一直以來，寫程式對我來說是一件有趣的事。本身有做過的小專案大多</p>
+                        <p>都跟網頁有關。像是以Asp.net實作客戶管理系統。在行動裝置上有做</p>
+                        <P>Android App以Java為主。除此之外偶爾也會用Python, C#做一些能</P>
+                        <p>解決自己生活問題的小程式。</p>
+                        <p>在嵌入式系統方面也小有研究，除了最基本的Arduino之外，也玩過</p>
+                        <P>PIC的組合語言。包含周邊電路的設計，做出有人機介面，並且可調速</P>
+                        <P>極地探索遙控車。</P>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="pills-Skills" role="tabpanel" aria-labelledby="pills-Skills-tab">
+            <h4>Skills</h4>
             <div class="row">
                 <div class="col-md-4">
-                    <h5>Web</h5>
-                    <hr size="14px" width="100%">
-                    <p>-asdnksjdgfkljsk</p>
-                    <p>-asdas</p>
+                    <h5>熟悉語言</h5>
+                    <hr width="100%">
+                    <p class="skills-content">-Java</p>
+                    <p class="skills-content">-C#</p>
+                    <P class="skills-content">-Python</P>
                 </div>
                 <div class="col-md-4">
                     <h5>Web</h5>
-                    <hr size="14px" width="100%">
-                    <p>-asdnksjdgfkljsk</p>
-                    <p>-asdas</p>
+                    <hr width="100%">
+                    <!-- <p class="skills-content">後端</p> -->
+                    <p class="skills-content"> -Asp.net</p>
+                    <p class="skills-content"> -Java Servlet</p>
+                    <!-- <P class="skills-content">前端</P> -->
+                    <p class="skills-content"> -HTML Bootstrap</p>
+                    <p class="skills-content"> -基本CSS</p>
                 </div>
                 <div class="col-md-4">
-                    <h5>Web</h5>
-                    <hr size="14px" width="100%">
-                    <p>-asdnksjdgfkljsk</p>
-                    <p>-asdas</p>
+                    <h5>行動裝置App</h5>
+                    <hr width="100%">
+                    <p class="skills-content">-Android App Java</p>
                 </div>
             </div>
             <br>
             <div class="row">
                 <div class="col-md-4">
-                    <h5>Web</h5>
-                    <hr size="14px" width="100%">
-                    <p>-asdnksjdgfkljsk</p>
-                    <p>-asdas</p>
+                    <h5>資料庫</h5>
+                    <hr width="100%">
+                    <p class="skills-content">-MySQL</p>
+                    <p class="skills-content">-MongoDB</p>
                 </div>
                 <div class="col-md-4">
-                    <h5>Web</h5>
-                    <hr size="14px" width="100%">
-                    <p>-asdnksjdgfkljsk</p>
-                    <p>-asdas</p>
+                    <h5>硬體</h5>
+                    <hr width="100%">
+                    <p class="skills-content">-PIC Assembly</p>
+                    <p class="skills-content">-Altium Designer Layout</p>
                 </div>
                 <div class="col-md-4">
-                    <h5>Web</h5>
-                    <hr size="14px" width="100%">
-                    <p>-asdnksjdgfkljsk</p>
-                    <p>-asdas</p>
+                    <h5>其他</h5>
+                    <hr width="100%">
+                    <p class="skills-content">-TOEIC</p>
+                    <p class="skills-content">-機械加工乙級</p>
                 </div>
             </div>
-            <h4 id="Experience">Experience</h4>
-            <p>.. dsfsdf sdfsdf sdfsdfsdf sdfsdfsdf sdf.
-            </p>
-            <p>..sdf sdf sdfsdfg gggggg ggggg gggg gg gggs.
-            </p>
-            <p>..sdf sdf sdfsdfg gggggg ggggg gggg gg gggs.
-            </p>
-            <p>..sdf sdf sdfsdfg gggggg ggggg gggg gg gggs.
-            </p>
-            <p>..sdf sdf sdfsdfg gggggg ggggg gggg gg gggs.
-            </p>
-            <p>..sdf sdf sdfsdfg gggggg ggggg gggg gg gggs.
-            </p>
-            <p>..sdf sdf sdfsdfg gggggg ggggg gggg gg gggs.
-            </p>
-            <p>..sdf sdf sdfsdfg gggggg ggggg gggg gg gggs.
-            </p>
-            <h4 id="Awards">Awards</h4>
-            <p>..sdf sdf sdfsdfg gggggg ggggg gggg gg gggs.
-            </p>
-            <p>..sdf sdf sdfsdfg gggggg ggggg gggg gg gggs.
-            </p>
-            <p>..sdf sdf sdfsdfg gggggg ggggg gggg gg gggs.
-            </p>
-            <p>..sdf sdf sdfsdfg gggggg ggggg gggg gg gggs.
-            </p>
-            <p>..sdf sdf sdfsdfg gggggg ggggg gggg gg gggs.
-            </p>
-            <p>..sdf sdf sdfsdfg gggggg ggggg gggg gg gggs.
-            </p>
-            <p>..sdf sdf sdfsdfg gggggg ggggg gggg gg gggs.
-            </p>
+        </div>
+        <div class="tab-pane fade" id="pills-Experience" role="tabpanel" aria-labelledby="pills-Experience-tab">
+            <h4>Experience</h4>
+            <p>coming soon</p>
+        </div>
+        <div class="tab-pane fade" id="pills-Awards" role="tabpanel" aria-labelledby="pills-Awards-tab">
+            <h4>Awards</h4>
+            <p>coming soon</p>
         </div>
     </div>
 

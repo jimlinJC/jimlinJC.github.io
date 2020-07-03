@@ -1,13 +1,81 @@
 p {
-    margin: 0px auto
+    margin: 0px auto;
+    color: #354649;
+    word-break: break-word;
+    font-weight: bold;
+}
+
+p.skills-content {
+    margin: 0px auto;
+    color: #E0E7E9;
+    word-break: break-word;
+    font-weight: bold;
+}
+
+hr {
+    border: 1px solid #E0E7E9;
+    background-color: #E0E7E9;
 }
 
 body {
     position: relative;
-    padding-top: 70px;
+    padding-top: 100px;
+    overflow-y: scroll;
+    background-color: #6C7A89;
+    font-family: Microsoft JhengHei;
 }
 
-#content {
-    position: relative;
-    overflow-y: scroll;
+img {
+    border: 3px solid #898a8a;
+    border-radius: 200px;
+}
+
+.rectangle {
+    height: 360px;
+    width: 300px;
+    background-color: #354649;
+}
+
+.img-align {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.text-align {
+    margin-left: 80px;
+    text-align: left;
+}
+
+.content-align {
+    margin-top: 70px;
+    margin-left: 80px;
+    text-align: left;
+}
+
+.rectangle-content {
+    height: 360px;
+    width: 75%;
+    max-width: 800px;
+    background-color: #A3C6C4;
+    overflow-x: scroll;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+h4 {
+    color: #E0E7E9;
+}
+
+h5 {
+    color: #A3C6C4;
+    font-weight: bold;
+}
+
+h6 {
+    color: #A3C6C4;
+    font-weight: bold;
 }
