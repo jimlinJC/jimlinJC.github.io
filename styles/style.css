@@ -1,3 +1,13 @@
-.aligncenter {
-    text-align: center;
+p {
+    margin: 0px auto
+}
+
+body {
+    position: relative;
+    padding-top: 70px;
+}
+
+#content {
+    position: relative;
+    overflow-y: scroll;
 }

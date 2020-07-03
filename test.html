@@ -11,31 +11,33 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark ">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
         <a class="navbar-brand" href="#"></a>
         <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-        <div class="navbar-collapse collapse bs-js-navbar-scrollspy" id="navbarCollapse">
-            <ul class="nav navbar-nav mx-auto nav-pills" id="#navbar-example2">
+        <div class="navbar-collapse collapse" id="navbarCollapse">
+            <ul class="nav navbar-nav nav-pills mx-auto" id="pills-tab" role="tablist">
                 <li class="nav-item">
-                    <a class="nav-link" data-toggle="pill" href="#About">About</a>
+                    <a class="nav-link active" id="pills-About-tab" data-toggle="pill" href="#pills-About" role="tab" aria-controls="pills-About" aria-selected="true">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" data-toggle="pill" href="#Skills">Skills</a>
+                    <a class="nav-link" id="pills-Skills-tab" data-toggle="pill" href="#pills-Skills" role="tab" aria-controls="pills-Skills" aria-selected="false">Skills</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" data-toggle="pill" href="#Experience">Experience</a>
+                    <a class="nav-link" id="pills-Experience-tab" data-toggle="pill" href="#pills-Experience" role="tab" aria-controls="pills-Experience" aria-selected="false">Experience</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" data-toggle="pill" href="#Awards">Awards</a>
+                    <a class="nav-link" id="pills-Awards-tab" data-toggle="pill" href="#pills-Awards" role="tab" aria-controls="pills-Awards" aria-selected="false">Awards</a>
                 </li>
             </ul>
         </div>
     </nav>
-    <div class="container">
-        <div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
-            <h4 id="About">About</h4>
+
+
+    <div class="tab-content container" id="pills-tabContent">
+        <div class="tab-pane fade show active" id="pills-About" role="tabpanel" aria-labelledby="pills-About-tab">
+            <h4>About</h4>
             <p>...
             </p>
             <br>
@@ -43,7 +45,9 @@
             <br>
             <br>
             <br>
-            <h4 id="Skills">Skills</h4>
+        </div>
+        <div class="tab-pane fade" id="pills-Skills" role="tabpanel" aria-labelledby="pills-Skills-tab">
+            <h4>Skills</h4>
             <div class="row">
                 <div class="col-md-4">
                     <h5>Web</h5>
@@ -85,7 +89,9 @@
                     <p>-asdas</p>
                 </div>
             </div>
-            <h4 id="Experience">Experience</h4>
+        </div>
+        <div class="tab-pane fade" id="pills-Experience" role="tabpanel" aria-labelledby="pills-Experience-tab">
+            <h4>Experience</h4>
             <p>.. dsfsdf sdfsdf sdfsdfsdf sdfsdfsdf sdf.
             </p>
             <p>..sdf sdf sdfsdfg gggggg ggggg gggg gg gggs.
@@ -102,7 +108,9 @@
             </p>
             <p>..sdf sdf sdfsdfg gggggg ggggg gggg gg gggs.
             </p>
-            <h4 id="Awards">Awards</h4>
+        </div>
+        <div class="tab-pane fade" id="pills-Awards" role="tabpanel" aria-labelledby="pills-Awards-tab">
+            <h4>Awards</h4>
             <p>..sdf sdf sdfsdfg gggggg ggggg gggg gg gggs.
             </p>
             <p>..sdf sdf sdfsdfg gggggg ggggg gggg gg gggs.
