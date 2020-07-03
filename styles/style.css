@@ -17,6 +17,19 @@ hr {
     background-color: #E0E7E9;
 }
 
+.footer {
+    margin-top: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: #354649;
+}
+
+a .fab {
+    color: #A3C6C4;
+}
+
 body {
     position: relative;
     padding-top: 100px;
