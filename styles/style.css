@@ -268,4 +268,9 @@ h6 {
         background-color: #A3C6C4;
         overflow-x: scroll;
     }
+    .content-align {
+        margin-top: 70px;
+        margin-left: 10px;
+        text-align: left;
+    }
 }
