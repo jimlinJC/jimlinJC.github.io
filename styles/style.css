@@ -28,7 +28,19 @@ hr {
 }
 
 a .fab {
-    color: #A3C6C4;
+    color: #6c757d;
+}
+
+a .fab:hover {
+    color: #E0E7E9;
+}
+
+a .fa {
+    color: #354649;
+}
+
+a .fa:hover {
+    color: #E0E7E9;
 }
 
 body {
@@ -115,9 +127,6 @@ h6 {
 * {
     box-sizing: border-box;
 }
-
-
-/* Set a background color */
 
 
 /* The actual timeline (the vertical ruler) */
