@@ -62,12 +62,12 @@ img {
 
 .content-align {
     margin-top: 70px;
-    margin-left: 80px;
+    margin-left: 60px;
     text-align: left;
 }
 
 .text-newline {
-    width: 680px;
+    width: 690px;
     word-break: break-all;
     word-wrap: break-word;
 }
@@ -269,9 +269,14 @@ h6 {
         overflow-y: scroll;
     }
     .text-newline {
-        width: 160px;
+        width: 200px;
         word-break: break-all;
         word-wrap: break-word;
         overflow-y: scroll;
+    }
+    .content-align {
+        margin-top: 50px;
+        margin-left: 50px;
+        text-align: left;
     }
 }
