@@ -68,7 +68,7 @@ img {
 
 .text-newline {
     width: 690px;
-    word-break: normal;
+    /* word-wrap:break-word; */
 }
 
 .rectangle-content {
@@ -269,7 +269,7 @@ h6 {
     }
     .text-newline {
         width: 250px;
-        word-break: normal;
+        word-wrap:break-word;
         overflow-y: scroll;
     }
     .content-align {
