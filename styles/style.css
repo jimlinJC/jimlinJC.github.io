@@ -68,7 +68,7 @@ img {
 
 .text-newline {
     width: 690px;
-    /* word-wrap:break-word; */
+    word-wrap:break-word;
 }
 
 .rectangle-content {
